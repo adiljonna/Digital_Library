@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 package Core;
 
 import DB.DBConnect;
@@ -25,6 +26,7 @@ public class Borrowed {
     private LocalDate BorrowedDate;
     private LocalDate ReturnDate;
     private boolean isExtended;
+    private boolean isExten;
     
     public Borrowed(Person user,Media media){
         this.Person=user;
